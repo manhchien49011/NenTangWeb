@@ -1,0 +1,100 @@
+body{
+    background-color: #F3E9FF;
+    margin: 0;
+}
+#header{
+    height: 250px;
+}
+.header-title{
+    color: #5731C7;
+    text-align: center;
+    font-family:sans-serif;
+    font-size:xx-large;
+}
+.header-logo{
+    text-align: center; 
+}
+.header-logo img{
+    width: 20%;
+}
+.text-outline-left{
+    border-left: 4px solid yellow;
+    padding-left: 15px;
+    color: yellow
+}
+.text-space-left{
+    padding-left: 15px;
+}
+.bg-color-white{
+    background-color: white;
+    color:#230383;
+}
+.bold{
+    font-weight: bold;
+}
+.m-content{
+    height: 650px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    color: white;
+    border-radius: 10px;
+    background-color: #774AD8;
+}
+
+.m-2{
+    padding-top: 5px;
+}
+.download-button{
+    text-align: center;
+    background-color: #EFD245;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.download-button:hover{
+    background-color: darkgoldenrod;
+}
+#footer{
+    text-align: center;
+    width: 100%; 
+    padding: 10px;
+}
+#bottom{
+    color:#C7B9D1;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 20%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 60%;
+    color: white;
+    border-radius: 10px;
+    background-color: #774AD8;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
