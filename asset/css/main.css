@@ -32,18 +32,6 @@ body{
 .bold{
     font-weight: bold;
 }
-.m-content{
-    height: 650px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    color: white;
-    border-radius: 10px;
-    background-color: #774AD8;
-}
-
-.m-2{
-    padding-top: 5px;
-}
 .download-button{
     text-align: center;
     background-color: #EFD245;
